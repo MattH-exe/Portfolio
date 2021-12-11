@@ -154,6 +154,8 @@ body {
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
+    height: 100%;
+    margin: 0;
     background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; } 
