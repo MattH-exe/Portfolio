@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <script src="https://kit.fontawesome.com/9a5a5e74eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Welcome To My Portfolio</title>
+</head>
+<body>
+    <a class="skip" href="#contact" tabindex="1">Skip to Main Content</a>
+    <header>
+        <div class="menu-btn" tabindex="2">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="work.html" class="nav-link">My Work</a></li>
+                <li class="nav-item current"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contact">
+        <h1 class="lg-heading">
+            Contact <span class="text-secondary">Me</span>
+        </h1>
+        <h2 class="sm-heading">
+            This is how you can reach me...
+        </h2>
+        <div class="boxes">
+           <div>
+               <span class="text-secondary">Email:</span> mhenn@umich.edu
+           </div>
+           <div>
+               <span class="text-secondary">Phone:</span> 734-646-3812
+           </div>
+           <div>
+               <span class="text-secondary">Address:</span> 212 W. Michigan Ave. Apt. 1 Ypsilanti, MI
+           </div>
+            </div>
+        </div>
+        <h2 class="sm-heading">
+            Or Fill out this form and I'll be in touch...
+        </h2>
+    <div class="container">
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="php/Contact_Requests.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" placeholder="Your name.." required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" placeholder="mhenn@umich.edu" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" placeholder="Can you help me build an amazing website..."required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <input type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">
+        </div>
+    </div>
+    </main>
+    <footer id='main-footer'>
+        Copyright &copy; Matt Henning 2021
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
