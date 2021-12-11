@@ -145,21 +145,17 @@ a.skip:focus {
   box-sizing: border-box;
 }
 
-body {
   background: #444;
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5;
-}
-body#bg-img {
-  background: url(../img/background.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  height: 80%;
-}
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5; }
+  body#bg-img {
+    background: url(../img/background.jpg);
+    background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover; } 
 body#bg-img:after {
   content: "";
   position: absolute;
