@@ -145,6 +145,7 @@ a.skip:focus {
   box-sizing: border-box;
 }
 
+body {
   background: #444;
   color: #fff;
   height: 100%;
@@ -156,16 +157,6 @@ a.skip:focus {
     background: rgba(68, 68, 68, 0.9), url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; } 
-body#bg-img:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(68, 68, 68, 0.9);
-  z-index: -1;
-}
 
 h1,
 h2,
