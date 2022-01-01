@@ -146,7 +146,7 @@ a.skip:focus {
 }
 
 body {
-  background: #444;
+  background-color: rgba(68, 68, 68, 0.9);
   color: #fff;
   height: 100%;
   margin: 0;
@@ -154,7 +154,6 @@ body {
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
-    background: rgba(68, 68, 68, 0.9);
     background-attachment: fixed;
     background-size: cover; }
 
